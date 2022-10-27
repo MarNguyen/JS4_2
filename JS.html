@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Ngày Tháng Năm</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Ngày</label>
+                <input id="Day" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Tháng</label>
+                <input id="Month" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Năm</label>
+                <input id="Year" type="number" class="form-control" />
+              </div>
+              <button id="btnTommorow" class="btn btn-success">Ngày Mai</button>
+              <button id="btnYesterday" class="btn btn-success">Ngày Hôm Qua</button>
+            </div>
+            <div id="infoDay" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Ngày Tháng</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Tháng</label>
+                  <input id="Month1" type="number" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Year</label>
+                    <input id="Year1" type="number" class="form-control" />
+                  </div>
+                <button id="btnTinh" class="btn btn-success">Tính</button>
+              </div>
+              <div id="infoTinh" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Đọc Số</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Số</label>
+                <input id="So" type="number" class="form-control" />
+              </div>
+              <button id="btnSo" class="btn btn-success">Đọc</button>
+            </div>
+            <div id="infoSo" class="card-footer text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">Tìm Sinh Viên xa trường nhất</div>
+          <div class="card-body">
+            <div class="form-group d-flex">
+              <div class="Name d-flex">
+                <label>Tên</label>
+                <input id="Names1" type="text" class="form-control" />
+              </div>
+              <div class="coordinates d-flex">
+                <label>Tọa độ</label>
+                <input id="coordinates1" type="number" class="form-control" />
+                <input id="coordinates2" type="number" class="form-control" />
+              </div>
+            </div>
+            <div class="form-group d-flex">
+              <div class="Name d-flex">
+                <label>Tên</label>
+                <input id="Names2" type="text" class="form-control" />
+              </div>
+              <div class="coordinates d-flex">
+                <label>Tọa độ</label>
+                <input id="coordinates3" type="number" class="form-control" />
+                <input id="coordinates4" type="number" class="form-control" />
+              </div>
+            </div>
+            <div class="form-group d-flex">
+              <div class="Name d-flex">
+                <label>Tên</label>
+                <input id="Names3" type="text" class="form-control" />
+              </div>
+              <div class="coordinates d-flex">
+                <label>Tọa độ</label>
+                <input id="coordinates5" type="number" class="form-control" />
+                <input id="coordinates6" type="number" class="form-control" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="coordinates d-flex">
+                <label>Tọa độ Trường</label>
+                <input id="coordinates7" type="number" class="form-control" />
+                <input id="coordinates8" type="number" class="form-control" />
+              </div>
+            </div>
+            <button id="btnTim" class="btn btn-success">Tìm</button>
+          </div>
+          <div id="infoTim" class="card-footer text-muted"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
